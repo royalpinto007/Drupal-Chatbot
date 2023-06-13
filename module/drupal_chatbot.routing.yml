@@ -1,0 +1,7 @@
+# openai_chatgpt.chat_form:
+#   path: '/admin/config/(@todo)'
+#   defaults:
+#     _title: 'Drupal chatbot'
+#     _form: 'Drupal\(@todo)'
+#   requirements:
+#     _permission: 'access drupal_chatbot'

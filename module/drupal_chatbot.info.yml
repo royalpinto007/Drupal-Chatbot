@@ -1,0 +1,7 @@
+name: Drupal_Chatbot
+type: module
+description: A module to enable Chatbot integration with Drupal and augment the content experience with AI assisted tools.
+package: Drupal_Chatbot
+core_version_requirement: ^10
+# configure: @todo
+# dependencies: @todo
