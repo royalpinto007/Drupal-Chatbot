@@ -9,6 +9,10 @@ This project aims to develop a chatbot interface for Drupal documentation and co
 
 ![HLD-Diagram](public/images/HLD.png)
 
+## Experience
+My Journey at Google Summer of Code with Drupal: \
+[Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b) 
+
 ## Details
 
 Organisation- [Drupal Association](https://www.drupal.org/) \
