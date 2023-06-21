@@ -1,0 +1,7 @@
+drupal_chatbot.hello:
+  path: '/drupal_chatbot'
+  defaults:
+    _controller: '\Drupal\drupal_chabot\Controller\HelloController::hello'
+    _title: 'Hello World'
+  requirements:
+    _permission: 'access content'
