@@ -1,4 +1,4 @@
-name: drupalChatbot
+name: chatbot
 type: module
 description: A module to enable Chatbot integration with Drupal and augment the content experience with AI assisted tools.
 package: AI

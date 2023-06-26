@@ -1,0 +1,8 @@
+<?php
+function chatbot_theme($existing, $type, $theme, $path) {
+  return [
+    'chatbot' => [
+      'variables' => array('items' => [], 'title' => '')
+    ],
+  ];
+}
