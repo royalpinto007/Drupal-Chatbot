@@ -5,7 +5,7 @@
  * Provides basic hello world message functionality.
  */
 
-namespace Drupal\drupalchatbot\Controller;
+namespace Drupal\drupalChatbot\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
 
