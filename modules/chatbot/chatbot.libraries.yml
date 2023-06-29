@@ -1,0 +1,7 @@
+chatbot:
+  version: 1.0
+  css:
+    theme:
+      css/chatbot.css: {}
+  js:
+    js/chatbot.js: {}

@@ -2,6 +2,6 @@ chatbot.hello:
   path: '/chatbot'
   defaults:
     _controller: '\Drupal\chatbot\Controller\HelloController::hello'
-    _title: 'Hello World'
+    _title: 'Module Chatbot'
   requirements:
     _permission: 'access content'

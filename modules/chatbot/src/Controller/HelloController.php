@@ -8,6 +8,7 @@
 namespace Drupal\chatbot\Controller;
 
 use Drupal\Core\Controller\ControllerBase;
+use Drupal\Core\Render\Markup;
 
 /**
  * Class HelloController.
@@ -23,12 +24,18 @@ class HelloController extends ControllerBase {
    *   Markup.
    */
   public function hello() {
-    $render = [];
-
-    $render['test'] = [
+    $build = [];
+  
+    $build['test'] = [
       '#theme' => 'chatbot',
       '#title' => 'chatbot',
+      '#attached' => [
+        'library' => [
+          'chatbot/chatbot',
+        ],
+      ],
     ];
-    return $render;
+    
+    return $build;
   }
 }
