@@ -13,7 +13,7 @@ This project aims to develop a chatbot interface for Drupal documentation and co
 ## Experience
 
 My Journey at Google Summer of Code with Drupal: \
-[Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b)
+[Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b) \
 [Week 3-4](https://medium.com/@royalpinto007/week-3-4-my-journey-at-google-summer-of-code-with-drupal-69eaf22a5499)
 
 ## Details
