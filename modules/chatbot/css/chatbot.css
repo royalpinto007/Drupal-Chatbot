@@ -5,11 +5,22 @@ body {
 	padding: 0;
 }
 
+#chatbot-icon {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  cursor: pointer;
+}
+
+#chat-window{
+	display: none;
+}
+
 .chatbot-container {
 	position: fixed;
 	bottom: 20px;
-	right: 20px;
-	width: 500px;
+	right: 30px;
+	width: 500px; 
 	height: 450px;
 	background-color: #f8f8f8;
 	border-radius: 4px;
@@ -19,13 +30,14 @@ body {
 }
 
 .heading {
-	background-color: #007bff;
-	color: #ffffff;
-	font-size: 20px;
-	text-align: left;
-	margin: 0;
-	padding: 10px;
-	border-radius: 6px;
+  display: flex;
+  background-color: #007bff;
+  color: #ffffff;
+  font-size: 20px;
+  text-align: left;
+  margin: 0;
+  padding: 10px;
+  border-radius: 6px;
 }
 
 .chat-container {

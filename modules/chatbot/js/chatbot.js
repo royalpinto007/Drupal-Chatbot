@@ -1,13 +1,25 @@
-document.addEventListener("DOMContentLoaded", function () {
+(function () {
 	const chatlog = document.getElementById("chatlog");
 	const userInput = document.getElementById("user-input");
 	const sendBtn = document.getElementById("send-btn");
+	const chatbotIcon = document.getElementById("chatbot-icon");
+	const chatWindow = document.getElementById("chat-window");
+
+	chatbotIcon.addEventListener("click", (event) => {
+		event.stopPropagation();
+		if (chatWindow.style.display === "none") {
+			chatWindow.style.display = "block";
+			chatbotIcon.style.display = "none";
+		} else {
+			chatWindow.style.display = "none";
+			chatbotIcon.style.display = 'block';
+		}
+	});
 
 	function sendMessage() {
 		const userMessage = userInput.value;
 		if (userMessage) {
 			appendMessage(userMessage, "user-message");
-			
 			userInput.value = "";
 		}
 	}
@@ -22,13 +34,13 @@ document.addEventListener("DOMContentLoaded", function () {
 	});
 
 	function appendMessage(message, className) {
-		const messageElement = document.createElement("p");
+		const messageElement = document.createElement("div");
 		messageElement.classList.add(className);
-		messageElement.textContent = message;
+		messageElement.innerText = message;
 		chatlog.appendChild(messageElement);
 		chatlog.scrollTop = chatlog.scrollHeight;
 	}
-});
+})();
 
 // to move the chatbot wherever the user wants
 const chatbotContainer = document.getElementById("chatbotContainer");
@@ -64,5 +76,5 @@ function stopDragging() {
 
 // Attach event listeners for dragging
 chatbotContainer.addEventListener("mousedown", startDragging);
-document.addEventListener("mousemove", drag);
-document.addEventListener("mouseup", stopDragging);
+chatbotContainer.addEventListener("mousemove", drag);
+chatbotContainer.addEventListener("mouseup", stopDragging);

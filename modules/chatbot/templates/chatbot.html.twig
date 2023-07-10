@@ -1,15 +1,31 @@
-<div class="chatbot-container" id="chatbotContainer">
-			<h1 class="heading">Chatbot</h1>
-			<div class="chat-container">
-				<div id="chatlog" class="chatlog">
-				</div>
-				<div class="input-container">
-					<input
-						type="text"
-						id="user-input"
-						placeholder="Type your message..."
-					/>
-					<button id="send-btn">Send</button>
-				</div>
-		  </div>
+<div id="chatbot-icon">
+  <img src="modules/chatbot/assets/chatbot.svg" alt="Chatbot Icon" width="120" height="120" />
+</div>
+<div id="chat-window">
+  <div class="chatbot-container" id="chatbotContainer">
+    <h1 class="heading">
+      <div
+        style="
+          background-color: #f2f2f2;
+          border-radius: 50%;
+          width: 22px;
+          height: 22px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin-right: 7px;
+        "
+      >
+        <img src="modules/chatbot/assets/drupal-icon.svg" alt="Chatbot Icon" width="20" height="20" />
+      </div>
+      Chatbot
+    </h1>
+    <div class="chat-container">
+      <div id="chatlog" class="chatlog"></div>
+      <div class="input-container">
+        <input type="text" id="user-input" placeholder="Type your message..." />
+        <button id="send-btn">Send</button>
+      </div>
+    </div>
+  </div>
 </div>
