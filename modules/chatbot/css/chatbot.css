@@ -38,6 +38,15 @@ body {
   margin: 0;
   padding: 10px;
   border-radius: 6px;
+  line-height: normal;
+  font-family: arimo;
+  letter-spacing: 0rem;
+}
+
+.heading img,video {
+    display: block;
+    max-width: 70%;
+	height: auto !important;
 }
 
 .chat-container {
@@ -50,6 +59,7 @@ body {
 	flex: 1;
 	overflow-y: scroll;
 	padding: 10px;
+	line-height: normal;
 }
 
 .chatlog p {
@@ -86,6 +96,7 @@ body {
 	margin-right: 10px;
 	margin-left: 10px;
 	margin-bottom: 10px;
+	min-height: 5px;
 }
 
 .input-container button {
@@ -98,6 +109,7 @@ body {
 	transition: background-color 0.3s ease;
 	margin-right: 10px;
 	margin-bottom: 10px;
+	min-height: 5px;
 }
 
 .input-container input::placeholder {
