@@ -65,22 +65,30 @@ body {
 .chatlog p {
 	margin: 0;
 	border-radius: 4px;
+	background: #ffffff;
 }
 
 .user-message {
 	color: #000000;
-	padding: 5px 10px 5px 20px;
+	padding: 5px 10px 5px 10px;
 	margin-top: 10px;
 	border-radius: 4px;
 	word-wrap: break-word;
+	background:#999999;
+	width: fit-content;
+	float: right;
+	clear: both;
+	text-align: right;
 }
 
 .bot-message {
 	color: #000000;
-	padding: 5px 20px 5px 10px;
+	padding: 5px 10px 5px 10px;
 	margin-top: 10px;
 	border-radius: 4px;
 	word-wrap: break-word;
+	width: fit-content;
+	background: #999999;
 }
 
 .input-container {
