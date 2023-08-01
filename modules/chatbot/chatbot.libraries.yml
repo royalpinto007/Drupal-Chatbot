@@ -5,3 +5,4 @@ chatbot:
       css/chatbot.css: {}
   js:
     js/chatbot.js: {}
+    # js/sw.js: {}
