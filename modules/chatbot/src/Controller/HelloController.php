@@ -15,7 +15,8 @@ use Drupal\Core\Render\Markup;
  *
  * @package Drupal\chatbot\Controller
  */
-class HelloController extends ControllerBase {
+class HelloController extends ControllerBase
+{
 
   /**
    * Say Hello.
@@ -23,9 +24,10 @@ class HelloController extends ControllerBase {
    * @return array
    *   Markup.
    */
-  public function hello() {
+  public function hello()
+  {
     $build = [];
-  
+
     $build['test'] = [
       '#theme' => 'chatbot',
       '#title' => 'chatbot',
@@ -35,7 +37,7 @@ class HelloController extends ControllerBase {
         ],
       ],
     ];
-    
+
     return $build;
   }
 }

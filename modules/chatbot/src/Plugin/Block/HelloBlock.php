@@ -15,12 +15,14 @@ use Drupal\Core\Render\Markup;
  * )
  */
 
-class HelloBlock extends BlockBase {
+class HelloBlock extends BlockBase
+{
 
   /**
    * {@inheritdoc}
    */
-  public function build() {
+  public function build()
+  {
     $build = [];
 
     $build['test'] = [
@@ -35,5 +37,4 @@ class HelloBlock extends BlockBase {
 
     return $build;
   }
-
 }
