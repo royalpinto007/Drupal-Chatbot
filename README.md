@@ -6,7 +6,7 @@ Through Google Summer of Code, I revitalized the Drupal Chatbot Module. I develo
 
 ## High Level Design
 
-![HLD-Diagram](public/images/HLD.png)
+<img src="public/images/HLD.png" alt="HLD Diagram" width="700">
 
 ## Features
 
@@ -32,26 +32,28 @@ Through Google Summer of Code, I revitalized the Drupal Chatbot Module. I develo
 - **Security Auditing**: Conducting thorough security audits and implementing best practices for securing the module can contribute to a safer experience for users.
 - **Localization and Internationalization**: Adding support for localization and internationalization could make the module accessible to users from various linguistic and cultural backgrounds.
 
-## Experience
-
-My Journey at Google Summer of Code with Drupal: \
-[Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b) \
-[Week 3-4](https://medium.com/@royalpinto007/week-3-4-my-journey-at-google-summer-of-code-with-drupal-69eaf22a5499) \
-[Week 5-6](https://medium.com/@royalpinto007/week-5-6-my-journey-at-google-summer-of-code-with-drupal-f97819cd589d) \
-[Week 7-8](https://medium.com/@royalpinto007/week-7-8-my-journey-at-google-summer-of-code-with-drupal-ca84364c6316) \
-[Week 9-10](https://medium.com/@royalpinto007/week-9-10-my-journey-at-google-summer-of-code-with-drupal-85137f7b7dc9)
-
 ## Preview
 
-![Chatbot-Icon](public/images/Chatbot-Icon.jpg)
-![Chatbot-Messages](public/images/Chatbot-Messages.jpeg)
-<!-- ![Chatbot-Block]() -->
+<img src="public/images/Module.jpeg" alt="Chatbot Module" width="500">
+<img src="public/images/Block.jpeg" alt="Chatbot Block" width="500">
+<img src="public/images/Chatbot-Icon.jpg" alt="Chatbot Icon" width="500">
+<img src="public/images/Routing.jpeg" alt="Chatbot Routing" width="500">
+<img src="public/images/Chatbot-Messages.jpeg" alt="Chatbot Messages" width="1000">
+
+## Experience
+
+**My Journey at Google Summer of Code with Drupal:** 
+- [Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b) 
+- [Week 3-4](https://medium.com/@royalpinto007/week-3-4-my-journey-at-google-summer-of-code-with-drupal-69eaf22a5499) 
+- [Week 5-6](https://medium.com/@royalpinto007/week-5-6-my-journey-at-google-summer-of-code-with-drupal-f97819cd589d) 
+- [Week 7-8](https://medium.com/@royalpinto007/week-7-8-my-journey-at-google-summer-of-code-with-drupal-ca84364c6316) 
+- [Week 9-10](https://medium.com/@royalpinto007/week-9-10-my-journey-at-google-summer-of-code-with-drupal-85137f7b7dc9)
 
 ## Details
 
-Organisation- [Drupal Association](https://www.drupal.org/) \
-Profile- [Royal Simpson Pinto](https://www.drupal.org/u/royalpinto007) \
-Project Reference- [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2023/projects/V6n2jJa5)
+- Organisation- [Drupal Association](https://www.drupal.org/) 
+- Profile- [Royal Simpson Pinto](https://www.drupal.org/u/royalpinto007) 
+- Project Reference- [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2023/projects/V6n2jJa5)
 
 ## License
 
