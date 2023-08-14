@@ -4,10 +4,6 @@
 
 Through Google Summer of Code, I revitalized the Drupal Chatbot Module. I developed a chatbot from scratch, designed a versatile Drupal block for seamless integration, optimized UI across devices, and harnessed local data storage. This journey honed my skills, emphasized adaptability, and highlighted the value of open-source collaboration.
 
-## High Level Design
-
-<img src="public/images/HLD.png" alt="HLD Diagram" width="700">
-
 ## Features
 
 - **Custom Module Creation**: Developed a tailored Drupal module from scratch, forming the foundation for advanced chatbot functionality.
@@ -32,27 +28,54 @@ Through Google Summer of Code, I revitalized the Drupal Chatbot Module. I develo
 - **Security Auditing**: Conducting thorough security audits and implementing best practices for securing the module can contribute to a safer experience for users.
 - **Localization and Internationalization**: Adding support for localization and internationalization could make the module accessible to users from various linguistic and cultural backgrounds.
 
+## High Level Design
+
+<div style="text-align: center;">
+    <img src="public/images/HLD.png" alt="HLD Diagram" width="400">
+</div>
+
 ## Preview
 
-<img src="public/images/Module.jpeg" alt="Chatbot Module" width="500">
-<img src="public/images/Block.jpeg" alt="Chatbot Block" width="500">
-<img src="public/images/Chatbot-Icon.jpg" alt="Chatbot Icon" width="500">
-<img src="public/images/Routing.jpeg" alt="Chatbot Routing" width="500">
-<img src="public/images/Chatbot-Messages.jpeg" alt="Chatbot Messages" width="1000">
+<div style="text-align: center;">
+  <img src="public/images/Module.jpeg" alt="Chatbot Module" width="400">
+  <p>Chatbot Module</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="public/images/Block.jpeg" alt="Chatbot Block" width="400">
+  <p>Chatbot Block</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="public/images/Chatbot-Icon.jpg" alt="Chatbot Icon" width="400">
+  <p>Chatbot Icon</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="public/images/Routing.jpeg" alt="Chatbot Routing" width="400">
+  <p>UI/UX Design for the Chatbot Module and Page</p>
+</div>
+
+<div style="text-align: center;">
+  <img src="public/images/Chatbot-Messages.jpeg" alt="Chatbot Messages" width="400">
+  <p>Pre-defined responses using local data storage</p>
+</div>
 
 ## Experience
 
-**My Journey at Google Summer of Code with Drupal:** 
-- [Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b) 
-- [Week 3-4](https://medium.com/@royalpinto007/week-3-4-my-journey-at-google-summer-of-code-with-drupal-69eaf22a5499) 
-- [Week 5-6](https://medium.com/@royalpinto007/week-5-6-my-journey-at-google-summer-of-code-with-drupal-f97819cd589d) 
-- [Week 7-8](https://medium.com/@royalpinto007/week-7-8-my-journey-at-google-summer-of-code-with-drupal-ca84364c6316) 
+**My Journey at Google Summer of Code with Drupal:**
+
+- [Week 1-2](https://medium.com/@royalpinto007/week-1-2-my-journey-at-google-summer-of-code-with-drupal-9013880d8b8b)
+- [Week 3-4](https://medium.com/@royalpinto007/week-3-4-my-journey-at-google-summer-of-code-with-drupal-69eaf22a5499)
+- [Week 5-6](https://medium.com/@royalpinto007/week-5-6-my-journey-at-google-summer-of-code-with-drupal-f97819cd589d)
+- [Week 7-8](https://medium.com/@royalpinto007/week-7-8-my-journey-at-google-summer-of-code-with-drupal-ca84364c6316)
 - [Week 9-10](https://medium.com/@royalpinto007/week-9-10-my-journey-at-google-summer-of-code-with-drupal-85137f7b7dc9)
+- [Work Report](https://medium.com/@royalpinto007/work-report-google-summer-of-code-2023-journey-with-drupal-146e91dd88fc)
 
 ## Details
 
-- Organisation- [Drupal Association](https://www.drupal.org/) 
-- Profile- [Royal Simpson Pinto](https://www.drupal.org/u/royalpinto007) 
+- Organisation- [Drupal Association](https://www.drupal.org/)
+- Profile- [Royal Simpson Pinto](https://www.drupal.org/u/royalpinto007)
 - Project Reference- [Google Summer of Code](https://summerofcode.withgoogle.com/programs/2023/projects/V6n2jJa5)
 
 ## License
