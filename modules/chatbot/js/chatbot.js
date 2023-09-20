@@ -24,9 +24,9 @@
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-		  // Enter your RapidAPI key here
-		  // You can get it from https://rapidapi.com/developer/dashboard
-		  // For more infomation, see https://rapidapi.com/nextbaseapp/api/chatgpt-gpt4-ai-chatbot/
+          // Enter your RapidAPI key here
+          // You can get it from https://rapidapi.com/developer/dashboard
+          // For more infomation, see https://rapidapi.com/nextbaseapp/api/chatgpt-gpt4-ai-chatbot/
           "X-RapidAPI-Key": "API-KEY-HERE",
           "X-RapidAPI-Host": "chatgpt-gpt4-ai-chatbot.p.rapidapi.com",
         },
